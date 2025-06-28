@@ -43,8 +43,8 @@ const Header = () => {
           </div>
         </div>
         <div className="px-8 py-6 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <h1 className="flex items-center gap-2 font-semibold text-2xl">
+          <div className="flex items-center gap-12">
+            <h1 className="flex items-center gap-2 font-semibold text-[32px]">
               <Image
                 src="/icons/GraduationCap.svg"
                 alt="logo"
