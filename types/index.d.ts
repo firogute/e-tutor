@@ -19,7 +19,10 @@ declare interface Course {
   originalPrice: string;
   discountedPrice: string;
   title: string;
-  instructor: string;
+  instructor: {
+    name: string;
+    img: string;
+  };
   rating: {
     value: number;
     count: number;
