@@ -14,7 +14,7 @@ const CourseCard = ({
   return (
     <div className="flex flex-col gap-4 pb-4 shadow-sm hover:scale-110 cursor-pointer transition">
       <div className="w-full">
-        <Image src={img} alt={name} width={244} height={184} />
+        <Image src={img} alt={name} width={244} height={184} className="w-full h-full" />
       </div>
       <div className="px-4 flex flex-col gap-4">
         <div className="">
@@ -33,7 +33,6 @@ const CourseCard = ({
         </div>
         <p className="font-medium text-sm text-left line-clamp-2">{name}</p>
       </div>
-      <hr className="border-t border-[#E9EAF0]" />
       <div className="px-4 flex items-center justify-between">
         <p className="flex gap-1">
           <Image src="/icons/Star.svg" alt="rating" width={16} height={16} />

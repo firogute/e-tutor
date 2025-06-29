@@ -31,7 +31,7 @@ const FeaturedCourseCard = ({ course }: { course: Course }) => {
               </span>
             </p>
           </div>
-          <p className="font-medium text-gray-900 line-clamp-1 text-base">
+          <p className="font-medium text-gray-900 line-clamp-1 text-bas">
             {course.title}
           </p>
           <div className="flex items-center justify-between">
