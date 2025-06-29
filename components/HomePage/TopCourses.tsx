@@ -1,6 +1,6 @@
 import React from "react";
 import CourseCard from "./CourseCard";
-const Courses: Course[] = [
+const Courses: TopCourse[] = [
   {
     name: "Machine Learning A-Z™, Hands-On Python & R in Data Science",
     category: "DESIGN",

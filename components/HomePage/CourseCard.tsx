@@ -9,7 +9,7 @@ const CourseCard = ({
   category,
   price,
   rating,
-}: Course) => {
+}: TopCourse) => {
   const { textColor, bgColor } = getRandomColors();
   return (
     <div className="flex flex-col gap-4 pb-4 shadow-sm hover:scale-110 cursor-pointer transition">
