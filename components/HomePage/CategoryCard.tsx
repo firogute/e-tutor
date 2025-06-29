@@ -3,7 +3,10 @@ import React from "react";
 
 const CategoryCard = ({ name, icon, noOfCourses, bg }: Category) => {
   return (
-    <div className="p-5 shadow-sm flex gap-5" style={{ backgroundColor: bg }}>
+    <div
+      className="p-5 shadow-sm flex gap-5 hover:scale-110 cursor-pointer transition"
+      style={{ backgroundColor: bg }}
+    >
       <div className="p-4 bg-white">
         <Image src={icon} alt={name} width={32} height={32} />
       </div>

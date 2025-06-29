@@ -4,3 +4,12 @@ declare interface Category {
   noOfCourses: number;
   bg: string;
 }
+
+declare interface Course {
+  img: string;
+  category: string;
+  price: string;
+  name: string;
+  noOfStudents: number;
+  rating: number;
+}
