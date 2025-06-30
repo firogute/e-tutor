@@ -3,12 +3,14 @@ import FeaturedCourses from "@/components/HomePage/FeaturedCourses";
 import HeroSection from "@/components/HomePage/HeroSection";
 import RecentCourses from "@/components/HomePage/RecentCourses";
 import TopCourses from "@/components/HomePage/TopCourses";
+import TopInstructors from "@/components/HomePage/TopInstructors";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
+
 export default function Home() {
   return (
-    <div className="">
+    <main className="">
       <HeroSection />
       <Category />
       <TopCourses />
@@ -78,6 +80,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-    </div>
+      <TopInstructors />
+    </main>
   );
 }

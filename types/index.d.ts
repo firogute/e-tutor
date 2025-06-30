@@ -36,3 +36,11 @@ declare interface Course {
 interface RecentCourse extends Course {
   learningOutcome: string[];
 }
+
+declare interface Instructor {
+  name: string;
+  title: string;
+  img: string;
+  rating: number;
+  students: number;
+}
