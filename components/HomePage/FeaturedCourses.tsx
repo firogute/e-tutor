@@ -77,7 +77,7 @@ const featuredCourses: Course[] = [
 
 const FeaturedCourses = () => {
   return (
-    <section className="mx-auto -mt-[250px]">
+    <section className="mx-auto -mt-[250px] text-">
       <div className="flex flex-col w-full gap-10 max-w-[1320px] bg-white p-20 mx-auto">
         <div className="flex items-center justify-between w-full">
           <h2 className="font-semibold text-[40px]">Our feature courses</h2>
