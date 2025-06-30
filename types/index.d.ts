@@ -16,8 +16,8 @@ declare interface TopCourse {
 
 declare interface Course {
   category: string;
-  originalPrice: string;
-  discountedPrice: string;
+  originalPrice: number;
+  discountedPrice: number;
   title: string;
   instructor: {
     name: string;

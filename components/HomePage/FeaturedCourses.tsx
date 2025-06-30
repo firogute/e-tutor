@@ -3,8 +3,8 @@ import FeaturedCourseCard from "./FeaturedCourseCard";
 const featuredCourses: Course[] = [
   {
     category: "HEALTH & FITNESS",
-    originalPrice: "$26.60",
-    discountedPrice: "$14.00",
+    originalPrice: 26.6,
+    discountedPrice: 14.0,
     title: "Investing in Stocks: The Complete Course! (13 Hours of Content)",
     instructor: {
       name: "Kevin Gilbert",
@@ -21,8 +21,8 @@ const featuredCourses: Course[] = [
   },
   {
     category: "PRODUCTIVITY",
-    originalPrice: "$26.60",
-    discountedPrice: "$14.00",
+    originalPrice: 26.6,
+    discountedPrice: 14.0,
     title: "Adobe XD for Web Design: Essential Principles and Practices",
     instructor: {
       name: "Kevin Gilbert",
@@ -39,8 +39,8 @@ const featuredCourses: Course[] = [
   },
   {
     category: "PERSONAL DEVELOPMENT",
-    originalPrice: "$26.60",
-    discountedPrice: "$14.00",
+    originalPrice: 26.6,
+    discountedPrice: 14.0,
     title: "Google Analytics Certification - Learn How To Pass The Exam",
     instructor: {
       name: "Kevin Gilbert",
@@ -57,8 +57,8 @@ const featuredCourses: Course[] = [
   },
   {
     category: "MUSIC",
-    originalPrice: "$26.60",
-    discountedPrice: "$14.00",
+    originalPrice: 26.6,
+    discountedPrice: 14.0,
     title: "The Python Mega Course: Build 10 Real World Applications",
     instructor: {
       name: "Kevin Gilbert",
