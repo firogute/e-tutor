@@ -11,7 +11,6 @@ import {
 } from "../ui/select";
 
 const Footer = () => {
-  // Data for reusable sections
   const stats = [
     { value: "6.3K", label: "Online Courses" },
     { value: "26K", label: "Certified Instructors" },
@@ -59,10 +58,8 @@ const Footer = () => {
 
   return (
     <footer className="flex flex-col gap-20 bg-gray-900 text-white">
-      {/* Top Section */}
       <div className="max-w-[1320px] mx-auto w-full">
         <div className="flex flex-col lg:flex-row items-center justify-between py-20 gap-10">
-          {/* CTA Section */}
           <div className="flex flex-col gap-6 max-w-[600px]">
             <h2 className="font-semibold text-4xl">
               Start learning with 67.1k students around the world.
@@ -83,7 +80,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Stats Section */}
           <div className="flex justify-between gap-10 max-w-[600px] w-full">
             {stats.map((stat, index) => (
               <div key={index} className="text-center">
