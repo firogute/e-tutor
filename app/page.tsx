@@ -1,6 +1,7 @@
 import Category from "@/components/HomePage/Category";
 import Companies from "@/components/HomePage/Companies";
 import FeaturedCourses from "@/components/HomePage/FeaturedCourses";
+import Footer from "@/components/HomePage/Footer";
 import HeroSection from "@/components/HomePage/HeroSection";
 import RecentCourses from "@/components/HomePage/RecentCourses";
 import TopCourses from "@/components/HomePage/TopCourses";
@@ -82,6 +83,7 @@ export default function Home() {
       </section>
       <TopInstructors />
       <Companies />
+      <Footer />
     </main>
   );
 }
