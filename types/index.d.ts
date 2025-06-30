@@ -32,3 +32,7 @@ declare interface Course {
   duration: string;
   imageCover: string;
 }
+
+interface RecentCourse extends Course {
+  learningOutcome: string[];
+}
