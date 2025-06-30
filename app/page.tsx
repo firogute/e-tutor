@@ -1,4 +1,5 @@
 import Category from "@/components/HomePage/Category";
+import Companies from "@/components/HomePage/Companies";
 import FeaturedCourses from "@/components/HomePage/FeaturedCourses";
 import HeroSection from "@/components/HomePage/HeroSection";
 import RecentCourses from "@/components/HomePage/RecentCourses";
@@ -6,7 +7,6 @@ import TopCourses from "@/components/HomePage/TopCourses";
 import TopInstructors from "@/components/HomePage/TopInstructors";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-
 
 export default function Home() {
   return (
@@ -81,6 +81,7 @@ export default function Home() {
         </div>
       </section>
       <TopInstructors />
+      <Companies />
     </main>
   );
 }
